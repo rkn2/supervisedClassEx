@@ -15,6 +15,7 @@ cancer = load_breast_cancer()
 
 # instantiate the class
 # test_train_split is built into sklearn. Put your cursor in the name and then press F1 for details
+# default train_size is 25% of the data and testing is then 75%
 X_train, X_test, y_train, y_test = train_test_split(
     cancer.data, cancer.target, stratify=cancer.target, random_state=66)
 
