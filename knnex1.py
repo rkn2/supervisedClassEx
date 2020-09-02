@@ -81,4 +81,15 @@ plt.ylabel("Accuracy")
 plt.xlabel("n_neighbors")
 plt.legend()
 
+'''The plot shows the training and test set accuracy on the y-axis against the setting
+of n_neighbors on the x-axis. While real-world plots are rarely very smooth, we can still
+recognize some of the characteristics of overfitting and underfitting. Considering a single nearest neighbor, the
+prediction on the training set is perfect. But when more neighbors are considered, the
+model becomes simpler and the training accuracy drops. The test set accuracy for using a
+single neighbor is lower than when using more neighbors, indicating that using the single
+nearest neighbor leads to a model that is too complex. On the other hand, when considering
+10 neighbors, the model is too simple and performance is even worse. The best
+performance is somewhere in the middle, using around six neighbors. Still, it is good to
+keep the scale of the plot in mind. The worst performance is around 88% accuracy, which
+might still be acceptable.'''
 
