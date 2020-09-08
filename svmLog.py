@@ -124,3 +124,4 @@ for C, marker in zip([0.001, 1, 100], ['o', '^', 'v']):
 and linear models for regression. As in regression, the main difference between the models
 is the penalty parameter, which influences the regularization and whether the model will
 use all available features or select only a subset.'''
+
